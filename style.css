@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte{
+    width:400px;
+	height:240px;
+	background:white;
+    border: 1px solid #000;
+    margin: auto;
+
+}
+
+.flex{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    width: 60px;
+    height: 90px;
+}
+
+.presentation{
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    margin-left: 75px;
+}
+
+.texte{
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    margin-top: 82px;
+}
+
+.icone img{
+    margin: auto;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.skype{
+    margin-left: 5px;
+}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+}
